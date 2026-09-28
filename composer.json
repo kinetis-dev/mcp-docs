@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": "^8.4",
-        "kinetis/mcp-protocol": "dev-main",
+        "kinetis/mcp-protocol": "^1.1.0",
         "symfony/http-client": "^8.1.4",
         "symfony/http-client-contracts": "^3.7.1"
     },
@@ -32,12 +32,6 @@
     },
     "bin": [
         "bin/kinetis-mcp-docs"
-    ],
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../mcp-protocol"
-        }
     ],
     "config": {
         "sort-packages": true,
